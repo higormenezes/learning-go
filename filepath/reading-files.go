@@ -15,7 +15,7 @@ func check(e error) {
 }
 
 func main() {
-	path, err := filepath.Abs("./files/dat")
+	path, err := filepath.Abs("./filepath/dat")
 	check(err)
 
 	dat, err := os.ReadFile(path)

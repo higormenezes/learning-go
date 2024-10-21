@@ -14,9 +14,9 @@ func check(e error) {
 }
 
 func main() {
-	path1, err := filepath.Abs("./files/dat1")
+	path1, err := filepath.Abs("./filepath/dat1")
 	check(err)
-	path2, err := filepath.Abs("./files/dat2")
+	path2, err := filepath.Abs("./filepath/dat2")
 	check(err)
 
 	d1 := []byte("hello\ngo\n")
